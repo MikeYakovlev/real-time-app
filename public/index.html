@@ -7,6 +7,20 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>title</h1>
+  <h1>Title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas laborum, velit asperiores quo, aspernatur, debitis non pariatur error mollitia libero! Cumque dicta nulla nihil ipsam! Illum ullam eveniet quasi.</p>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    let socket = io();
+
+    socket.on('connect', () => {
+      console.log('Connected to server');
+    });
+
+    socket.on('disconnect', () => {
+      console.log('Disconnected from server');
+    });
+  </script>
 </body>
 </html>
