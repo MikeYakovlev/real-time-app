@@ -56,6 +56,8 @@ input[type="text"] {
 
 .chat__footer {
   position: fixed;
+  display: flex;
+  flex-wrap: wrap;
   width: 75%;
   right: 0;
   bottom: 0;
@@ -63,17 +65,18 @@ input[type="text"] {
   padding: 5px;
 }
 .chat__footer form {
-  width: 85%;
-  display: inline-block;
+  min-width: 85%;
+  display: block;
+  display: flex;
+  justify-content: space-around;
 }
 .chat__footer form input {
-  width: 92%;
-  display: inline-block;
+  width: 85%;
 }
 .chat__footer form button {
-  display: inline-block;
+  width: 13%;
 }
 .chat__footer > button {
-  width: 13%;
   text-align: center;
+  min-width: 15%;
 }
