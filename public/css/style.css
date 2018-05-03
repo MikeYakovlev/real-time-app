@@ -73,3 +73,7 @@ input[type="text"] {
 .chat__footer form button {
   display: inline-block;
 }
+.chat__footer > button {
+  width: 13%;
+  text-align: center;
+}
