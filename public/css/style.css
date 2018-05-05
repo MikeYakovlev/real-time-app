@@ -107,3 +107,37 @@ input[type="text"] {
 .message__body {
   margin-top: 10px;
 }
+
+
+/* login page */
+.centered-form {
+  background: rgb(56, 86, 124);
+}
+.centered-form form {
+  background: rgb(212, 212, 212);
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 150px);
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.centered-form .form-field {
+  width: 100%;
+}
+.centered-form h3 {
+  text-align: center;
+}
+.centered-form form input,
+.centered-form form button {
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+
